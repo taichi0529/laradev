@@ -8,4 +8,4 @@ if [ -e "src" ]; then
 fi
 cd laradock
 cp env-example .env
-docker-compose up -d
+docker-compose stop
